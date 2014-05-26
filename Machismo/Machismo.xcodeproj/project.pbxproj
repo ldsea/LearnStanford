@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		218A7C5819339B9E0083D01B /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 218A7C5719339B9E0083D01B /* CardMatchingGame.m */; };
 		21D74FF21930CA2D00A1EA74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D74FF11930CA2D00A1EA74 /* Foundation.framework */; };
 		21D74FF41930CA2D00A1EA74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D74FF31930CA2D00A1EA74 /* CoreGraphics.framework */; };
 		21D74FF61930CA2D00A1EA74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D74FF51930CA2D00A1EA74 /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		218A7C5619339B9E0083D01B /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Modules/CardMatchingGame.h; sourceTree = "<group>"; };
+		218A7C5719339B9E0083D01B /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Modules/CardMatchingGame.m; sourceTree = "<group>"; };
 		21D74FEE1930CA2D00A1EA74 /* Machismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Machismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D74FF11930CA2D00A1EA74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21D74FF31930CA2D00A1EA74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -168,6 +171,8 @@
 		21D750291930EC8400A1EA74 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				218A7C5619339B9E0083D01B /* CardMatchingGame.h */,
+				218A7C5719339B9E0083D01B /* CardMatchingGame.m */,
 				21D750261930EC7F00A1EA74 /* Card.h */,
 				21D750271930EC7F00A1EA74 /* Card.m */,
 				21D7502A1930ECA300A1EA74 /* Deck.h */,
@@ -226,7 +231,7 @@
 			attributes = {
 				CLASSPREFIX = CardGame;
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "梁栋";
+				ORGANIZATIONNAME = ildsea;
 				TargetAttributes = {
 					21D7500E1930CA2E00A1EA74 = {
 						TestTargetID = 21D74FED1930CA2D00A1EA74;
@@ -282,6 +287,7 @@
 				21D7502C1930ECA300A1EA74 /* Deck.m in Sources */,
 				21D750021930CA2E00A1EA74 /* CardGameAppDelegate.m in Sources */,
 				21D750081930CA2E00A1EA74 /* CardGameViewController.m in Sources */,
+				218A7C5819339B9E0083D01B /* CardMatchingGame.m in Sources */,
 				21D750321930ECCB00A1EA74 /* PlayingCardDeck.m in Sources */,
 				21D74FFE1930CA2D00A1EA74 /* main.m in Sources */,
 				21D750281930EC7F00A1EA74 /* Card.m in Sources */,
@@ -489,6 +495,7 @@
 				21D750221930CA2E00A1EA74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21D750231930CA2E00A1EA74 /* Build configuration list for PBXNativeTarget "MachismoTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +504,7 @@
 				21D750251930CA2E00A1EA74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
