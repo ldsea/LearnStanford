@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ED2F6561-00E7-48B1-8573-A989DECC0617</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Machismo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>03738A6A-CD6C-409D-A45C-36C2B9353172</key>
+		<string>https://github.com/ldsea/LearnStanford.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Machismo/Machismo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>03738A6A-CD6C-409D-A45C-36C2B9353172</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ldsea/LearnStanford.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>03738A6A-CD6C-409D-A45C-36C2B9353172</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>03738A6A-CD6C-409D-A45C-36C2B9353172</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LearnStanford</string>
+		</dict>
+	</array>
+</dict>
+</plist>
