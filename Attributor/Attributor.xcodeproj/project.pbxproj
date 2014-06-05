@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2129CF981940B6AA00FE85AA /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2129CF971940B6AA00FE85AA /* TextStatsViewController.m */; };
 		EC2FE34218037B5C0057E3BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2FE34118037B5C0057E3BD /* Foundation.framework */; };
 		EC2FE34418037B5C0057E3BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2FE34318037B5C0057E3BD /* CoreGraphics.framework */; };
 		EC2FE34618037B5C0057E3BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2FE34518037B5C0057E3BD /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2129CF961940B6AA00FE85AA /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		2129CF971940B6AA00FE85AA /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 		EC2FE33E18037B5C0057E3BD /* Attributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2FE34118037B5C0057E3BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EC2FE34318037B5C0057E3BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,8 @@
 				EC2FE35318037B5C0057E3BD /* Main.storyboard */,
 				EC2FE35618037B5C0057E3BD /* AttributorViewController.h */,
 				EC2FE35718037B5C0057E3BD /* AttributorViewController.m */,
+				2129CF961940B6AA00FE85AA /* TextStatsViewController.h */,
+				2129CF971940B6AA00FE85AA /* TextStatsViewController.m */,
 				EC2FE35918037B5C0057E3BD /* Images.xcassets */,
 				EC2FE34818037B5C0057E3BD /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				EC2FE35218037B5C0057E3BD /* AttributorAppDelegate.m in Sources */,
 				EC2FE35818037B5C0057E3BD /* AttributorViewController.m in Sources */,
 				EC2FE34E18037B5C0057E3BD /* main.m in Sources */,
+				2129CF981940B6AA00FE85AA /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 				EC2FE37218037B5D0057E3BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC2FE37318037B5D0057E3BD /* Build configuration list for PBXNativeTarget "AttributorTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				EC2FE37518037B5D0057E3BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
