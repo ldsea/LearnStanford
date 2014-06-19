@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		218EF24E19460E3C000C263D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218EF24D19460E3C000C263D /* Foundation.framework */; };
+		218EF25019460E3C000C263D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218EF24F19460E3C000C263D /* CoreGraphics.framework */; };
+		218EF25219460E3C000C263D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218EF25119460E3C000C263D /* UIKit.framework */; };
+		218EF25819460E3C000C263D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 218EF25619460E3C000C263D /* InfoPlist.strings */; };
+		218EF25A19460E3C000C263D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 218EF25919460E3C000C263D /* main.m */; };
+		218EF25E19460E3C000C263D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 218EF25D19460E3C000C263D /* AppDelegate.m */; };
+		218EF26119460E3C000C263D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218EF25F19460E3C000C263D /* Main.storyboard */; };
+		218EF26419460E3C000C263D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 218EF26319460E3C000C263D /* ViewController.m */; };
+		218EF26619460E3C000C263D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218EF26519460E3C000C263D /* Images.xcassets */; };
+		218EF26D19460E3C000C263D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218EF26C19460E3C000C263D /* XCTest.framework */; };
+		218EF26E19460E3C000C263D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218EF24D19460E3C000C263D /* Foundation.framework */; };
+		218EF26F19460E3C000C263D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218EF25119460E3C000C263D /* UIKit.framework */; };
+		218EF27719460E3C000C263D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 218EF27519460E3C000C263D /* InfoPlist.strings */; };
+		218EF27919460E3C000C263D /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 218EF27819460E3C000C263D /* SuperCardTests.m */; };
+		218EF28419461029000C263D /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 218EF28319461029000C263D /* PlayingCardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		218EF27019460E3C000C263D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 218EF24219460E3C000C263D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218EF24919460E3C000C263D;
+			remoteInfo = SuperCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		218EF24A19460E3C000C263D /* SuperCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		218EF24D19460E3C000C263D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		218EF24F19460E3C000C263D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		218EF25119460E3C000C263D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		218EF25519460E3C000C263D /* SuperCard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperCard-Info.plist"; sourceTree = "<group>"; };
+		218EF25719460E3C000C263D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		218EF25919460E3C000C263D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		218EF25B19460E3C000C263D /* SuperCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperCard-Prefix.pch"; sourceTree = "<group>"; };
+		218EF25C19460E3C000C263D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		218EF25D19460E3C000C263D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		218EF26019460E3C000C263D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		218EF26219460E3C000C263D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		218EF26319460E3C000C263D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		218EF26519460E3C000C263D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		218EF26B19460E3C000C263D /* SuperCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		218EF26C19460E3C000C263D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		218EF27419460E3C000C263D /* SuperCardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperCardTests-Info.plist"; sourceTree = "<group>"; };
+		218EF27619460E3C000C263D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		218EF27819460E3C000C263D /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+		218EF28219461029000C263D /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		218EF28319461029000C263D /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		218EF24719460E3C000C263D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218EF25019460E3C000C263D /* CoreGraphics.framework in Frameworks */,
+				218EF25219460E3C000C263D /* UIKit.framework in Frameworks */,
+				218EF24E19460E3C000C263D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218EF26819460E3C000C263D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218EF26D19460E3C000C263D /* XCTest.framework in Frameworks */,
+				218EF26F19460E3C000C263D /* UIKit.framework in Frameworks */,
+				218EF26E19460E3C000C263D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		218EF24119460E3C000C263D = {
+			isa = PBXGroup;
+			children = (
+				218EF25319460E3C000C263D /* SuperCard */,
+				218EF27219460E3C000C263D /* SuperCardTests */,
+				218EF24C19460E3C000C263D /* Frameworks */,
+				218EF24B19460E3C000C263D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		218EF24B19460E3C000C263D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				218EF24A19460E3C000C263D /* SuperCard.app */,
+				218EF26B19460E3C000C263D /* SuperCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		218EF24C19460E3C000C263D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				218EF24D19460E3C000C263D /* Foundation.framework */,
+				218EF24F19460E3C000C263D /* CoreGraphics.framework */,
+				218EF25119460E3C000C263D /* UIKit.framework */,
+				218EF26C19460E3C000C263D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		218EF25319460E3C000C263D /* SuperCard */ = {
+			isa = PBXGroup;
+			children = (
+				218EF25F19460E3C000C263D /* Main.storyboard */,
+				218EF26219460E3C000C263D /* ViewController.h */,
+				218EF26319460E3C000C263D /* ViewController.m */,
+				218EF28219461029000C263D /* PlayingCardView.h */,
+				218EF28319461029000C263D /* PlayingCardView.m */,
+				218EF26519460E3C000C263D /* Images.xcassets */,
+				218EF25419460E3C000C263D /* Supporting Files */,
+			);
+			path = SuperCard;
+			sourceTree = "<group>";
+		};
+		218EF25419460E3C000C263D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				218EF25C19460E3C000C263D /* AppDelegate.h */,
+				218EF25D19460E3C000C263D /* AppDelegate.m */,
+				218EF25519460E3C000C263D /* SuperCard-Info.plist */,
+				218EF25619460E3C000C263D /* InfoPlist.strings */,
+				218EF25919460E3C000C263D /* main.m */,
+				218EF25B19460E3C000C263D /* SuperCard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		218EF27219460E3C000C263D /* SuperCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				218EF27819460E3C000C263D /* SuperCardTests.m */,
+				218EF27319460E3C000C263D /* Supporting Files */,
+			);
+			path = SuperCardTests;
+			sourceTree = "<group>";
+		};
+		218EF27319460E3C000C263D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				218EF27419460E3C000C263D /* SuperCardTests-Info.plist */,
+				218EF27519460E3C000C263D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		218EF24919460E3C000C263D /* SuperCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218EF27C19460E3C000C263D /* Build configuration list for PBXNativeTarget "SuperCard" */;
+			buildPhases = (
+				218EF24619460E3C000C263D /* Sources */,
+				218EF24719460E3C000C263D /* Frameworks */,
+				218EF24819460E3C000C263D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperCard;
+			productName = SuperCard;
+			productReference = 218EF24A19460E3C000C263D /* SuperCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		218EF26A19460E3C000C263D /* SuperCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218EF27F19460E3C000C263D /* Build configuration list for PBXNativeTarget "SuperCardTests" */;
+			buildPhases = (
+				218EF26719460E3C000C263D /* Sources */,
+				218EF26819460E3C000C263D /* Frameworks */,
+				218EF26919460E3C000C263D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218EF27119460E3C000C263D /* PBXTargetDependency */,
+			);
+			name = SuperCardTests;
+			productName = SuperCardTests;
+			productReference = 218EF26B19460E3C000C263D /* SuperCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		218EF24219460E3C000C263D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ildsea;
+				TargetAttributes = {
+					218EF26A19460E3C000C263D = {
+						TestTargetID = 218EF24919460E3C000C263D;
+					};
+				};
+			};
+			buildConfigurationList = 218EF24519460E3C000C263D /* Build configuration list for PBXProject "SuperCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 218EF24119460E3C000C263D;
+			productRefGroup = 218EF24B19460E3C000C263D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				218EF24919460E3C000C263D /* SuperCard */,
+				218EF26A19460E3C000C263D /* SuperCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		218EF24819460E3C000C263D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218EF26619460E3C000C263D /* Images.xcassets in Resources */,
+				218EF25819460E3C000C263D /* InfoPlist.strings in Resources */,
+				218EF26119460E3C000C263D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218EF26919460E3C000C263D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218EF27719460E3C000C263D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		218EF24619460E3C000C263D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218EF26419460E3C000C263D /* ViewController.m in Sources */,
+				218EF28419461029000C263D /* PlayingCardView.m in Sources */,
+				218EF25E19460E3C000C263D /* AppDelegate.m in Sources */,
+				218EF25A19460E3C000C263D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218EF26719460E3C000C263D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218EF27919460E3C000C263D /* SuperCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		218EF27119460E3C000C263D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218EF24919460E3C000C263D /* SuperCard */;
+			targetProxy = 218EF27019460E3C000C263D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		218EF25619460E3C000C263D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				218EF25719460E3C000C263D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		218EF25F19460E3C000C263D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				218EF26019460E3C000C263D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		218EF27519460E3C000C263D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				218EF27619460E3C000C263D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		218EF27A19460E3C000C263D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		218EF27B19460E3C000C263D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		218EF27D19460E3C000C263D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		218EF27E19460E3C000C263D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		218EF28019460E3C000C263D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SuperCard.app/SuperCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SuperCardTests/SuperCardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		218EF28119460E3C000C263D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SuperCard.app/SuperCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCardTests/SuperCardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		218EF24519460E3C000C263D /* Build configuration list for PBXProject "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218EF27A19460E3C000C263D /* Debug */,
+				218EF27B19460E3C000C263D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218EF27C19460E3C000C263D /* Build configuration list for PBXNativeTarget "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218EF27D19460E3C000C263D /* Debug */,
+				218EF27E19460E3C000C263D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		218EF27F19460E3C000C263D /* Build configuration list for PBXNativeTarget "SuperCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218EF28019460E3C000C263D /* Debug */,
+				218EF28119460E3C000C263D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 218EF24219460E3C000C263D /* Project object */;
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2129CF9519409DF300FE85AA /* PlayingCardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2129CF9419409DF300FE85AA /* PlayingCardGameViewController.m */; };
 		218A7C5819339B9E0083D01B /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 218A7C5719339B9E0083D01B /* CardMatchingGame.m */; };
 		21D74FF21930CA2D00A1EA74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D74FF11930CA2D00A1EA74 /* Foundation.framework */; };
 		21D74FF41930CA2D00A1EA74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D74FF31930CA2D00A1EA74 /* CoreGraphics.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2129CF9319409DF300FE85AA /* PlayingCardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardGameViewController.h; sourceTree = "<group>"; };
+		2129CF9419409DF300FE85AA /* PlayingCardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardGameViewController.m; sourceTree = "<group>"; };
 		218A7C5619339B9E0083D01B /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Modules/CardMatchingGame.h; sourceTree = "<group>"; };
 		218A7C5719339B9E0083D01B /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Modules/CardMatchingGame.m; sourceTree = "<group>"; };
 		21D74FEE1930CA2D00A1EA74 /* Machismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Machismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +133,8 @@
 				21D750031930CA2E00A1EA74 /* Main.storyboard */,
 				21D750061930CA2E00A1EA74 /* CardGameViewController.h */,
 				21D750071930CA2E00A1EA74 /* CardGameViewController.m */,
+				2129CF9319409DF300FE85AA /* PlayingCardGameViewController.h */,
+				2129CF9419409DF300FE85AA /* PlayingCardGameViewController.m */,
 				21D750091930CA2E00A1EA74 /* Images.xcassets */,
 				21D74FF81930CA2D00A1EA74 /* Supporting Files */,
 				21D750291930EC8400A1EA74 /* Modules */,
@@ -291,6 +296,7 @@
 				21D750321930ECCB00A1EA74 /* PlayingCardDeck.m in Sources */,
 				21D74FFE1930CA2D00A1EA74 /* main.m in Sources */,
 				21D750281930EC7F00A1EA74 /* Card.m in Sources */,
+				2129CF9519409DF300FE85AA /* PlayingCardGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -404,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
